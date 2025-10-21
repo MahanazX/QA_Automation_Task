@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 import { FlightSearchPage } from '../pages/FlightSearchPage';
 import { FlightResultsPage } from '../pages/FlightResultsPage';
 
-test('Flight search and price comparison', async ({ page }) => {
+test('Flight search and price comparison US-Bangla vs Novo Air', async ({ page }) => {
   const search = new FlightSearchPage(page);
   const results = new FlightResultsPage(page);
 
@@ -10,35 +10,31 @@ test('Flight search and price comparison', async ({ page }) => {
   // 1️⃣ Search Flights
   // -----------------------------
   await search.goto();
-  await search.setFrom('chatt'); // Chattogram
-  await search.setTo('dhaka');   // Dhaka
-  await search.setDepartureDate('Choose Tuesday, September 23rd, 2025');
-  await search.setTravellers(2); // 2 Adults
-  await search.setCabinEconomy(); // Economy class
+  await search.selectOneWay();
+  await search.setFrom('chatt');
+  await search.setTo('dhaka');
+  await search.setDepartureDate();
+  await search.setTravellers(2);
+  await search.setCabinEconomy();
   await search.searchFlights();
 
   // -----------------------------
-  // 2️⃣ Filter US-Bangla Airlines and get prices
+  // 2️⃣ US-Bangla Airlines
   // -----------------------------
-  await results.filterAirline('US-Bangla Airlines');
+  await results.selectUSBanglaAndLastFlight();
   const usPrices = await results.getPrices();
   console.log('US-Bangla prices:', usPrices);
-
-  // -----------------------------
-  // 3️⃣ Select last flight and verify Sign In popup
-  // -----------------------------
   await results.selectLastFlightAndVerifySignIn();
 
   // -----------------------------
-  // 4️⃣ Switch to Novo Air and get prices
+  // 3️⃣ Novo Air
   // -----------------------------
-  await results.filterAirline('US-Bangla Airlines'); // deselect US-Bangla
-  await results.filterAirline('Novo Air');          // select Novo Air
+  await results.selectNovoAirAndLastFlight();
   const novoPrices = await results.getPrices();
   console.log('Novo Air prices:', novoPrices);
 
   // -----------------------------
-  // 5️⃣ Compare prices
+  // 4️⃣ Compare prices
   // -----------------------------
   expect(novoPrices.join(',')).not.toBe(usPrices.join(','));
 });

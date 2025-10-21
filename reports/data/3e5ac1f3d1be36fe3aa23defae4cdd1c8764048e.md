@@ -1,0 +1,659 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e6]:
+      - link "logo" [ref=e9] [cursor=pointer]:
+        - img "logo" [ref=e10]
+      - generic [ref=e11] [cursor=pointer]:
+        - generic [ref=e12]:
+          - img [ref=e13]
+          - generic [ref=e14]: Flight
+        - generic [ref=e16]:
+          - img [ref=e17]
+          - generic [ref=e18]: Hotel
+        - generic [ref=e19]:
+          - img [ref=e20]
+          - generic [ref=e21]: Holiday
+        - generic [ref=e22]:
+          - img [ref=e23]
+          - generic [ref=e24]: Visa
+        - generic [ref=e25]:
+          - img [ref=e26]
+          - generic [ref=e27]: Promotions
+        - generic [ref=e28]:
+          - img [ref=e29]
+          - generic [ref=e30]: Business Class
+        - generic [ref=e31]:
+          - img [ref=e32]
+          - generic [ref=e33]: FT Club
+      - generic [ref=e35] [cursor=pointer]:
+        - link "Sign In" [ref=e36]:
+          - /url: /signin
+          - button "Sign In" [ref=e37]:
+            - paragraph [ref=e38]: Sign In
+        - link [ref=e39]:
+          - /url: /signup
+          - button [ref=e40]:
+            - paragraph [ref=e41]: Sign Up
+    - generic [ref=e42]:
+      - generic [ref=e48]:
+        - generic [ref=e52]:
+          - generic [ref=e54] [cursor=pointer]:
+            - img "image" [ref=e57]
+            - generic [ref=e58]: One Way
+          - generic [ref=e60] [cursor=pointer]:
+            - img "image" [ref=e63]
+            - generic [ref=e64]: Round Trip
+          - generic [ref=e66] [cursor=pointer]:
+            - img "image" [ref=e69]
+            - generic [ref=e70]: Multi City
+        - generic [ref=e72]:
+          - generic [ref=e76]:
+            - textbox [ref=e77] [cursor=pointer]:
+              - /placeholder: Airport/City
+              - text: CGP
+            - paragraph [ref=e78]: From
+            - generic:
+              - paragraph: Chattogram
+              - generic:
+                - paragraph: CGP
+                - paragraph: ", Shah Amanat International Airport"
+          - generic [ref=e79]:
+            - generic [ref=e82]:
+              - textbox [ref=e83] [cursor=pointer]:
+                - /placeholder: Airport/City
+                - text: DAC
+              - paragraph [ref=e84]: To
+              - generic:
+                - paragraph: Dhaka
+                - generic:
+                  - paragraph: DAC
+                  - paragraph: ", Hazrat Shahjalal International Airport"
+            - img [ref=e87] [cursor=pointer]
+          - generic [ref=e91]:
+            - button [ref=e96] [cursor=pointer]:
+              - generic [ref=e97]:
+                - paragraph [ref=e98]: Departure
+                - paragraph [ref=e99]: 23 Oct, 2025
+                - paragraph [ref=e100]: Thursday
+            - button [ref=e106] [cursor=pointer]:
+              - generic [ref=e107]:
+                - paragraph [ref=e108]: Return
+                - paragraph [ref=e109]:
+                  - generic [ref=e110]: Bigger savings on return flight
+          - generic [ref=e114]:
+            - paragraph [ref=e115]: Traveller, Class
+            - paragraph [ref=e116]: 2 Travellers
+            - paragraph [ref=e117]: Economy/Premium Economy
+          - button [ref=e120] [cursor=pointer]:
+            - generic [ref=e122]: Modify Search
+          - generic [ref=e125]:
+            - generic [ref=e127] [cursor=pointer]:
+              - img [ref=e130]
+              - generic [ref=e131]: Regular Fare
+            - generic [ref=e133] [cursor=pointer]:
+              - img [ref=e136]
+              - generic [ref=e137]: Student Fare
+      - article [ref=e138]:
+        - generic [ref=e140]:
+          - generic [ref=e142]:
+            - generic [ref=e143]:
+              - generic [ref=e144]:
+                - generic [ref=e146]:
+                  - img [ref=e147]
+                  - paragraph [ref=e148]: Time Remaining
+                - generic [ref=e151]: 29:59
+              - generic [ref=e157]:
+                - img [ref=e161] [cursor=pointer]
+                - generic [ref=e162]:
+                  - paragraph [ref=e163]: Departure
+                  - paragraph [ref=e164]: 23 Oct, Thursday
+                - img [ref=e167] [cursor=pointer]
+            - generic [ref=e168]:
+              - generic [ref=e169]:
+                - generic [ref=e170]:
+                  - heading [level=6] [ref=e172]: Price Range
+                  - img [ref=e176] [cursor=pointer]
+                - generic [ref=e178]:
+                  - generic [ref=e182]:
+                    - slider [ref=e183]
+                    - slider [ref=e186]
+                  - generic [ref=e189]:
+                    - paragraph [ref=e190]: ৳ 6,115
+                    - paragraph [ref=e191]: ৳ 20,243
+              - generic [ref=e192]:
+                - generic [ref=e193]:
+                  - heading [level=6] [ref=e195]: Stops
+                  - img [ref=e199] [cursor=pointer]
+                - generic [ref=e202] [cursor=pointer]:
+                  - img [ref=e204]
+                  - paragraph [ref=e206]: Non-stop
+              - generic [ref=e207]:
+                - generic [ref=e208]:
+                  - generic [ref=e209]:
+                    - heading [level=6] [ref=e210]: Airlines
+                    - generic [ref=e211]:
+                      - paragraph [ref=e212]: 1 selected
+                      - button [ref=e213] [cursor=pointer]: Select All
+                  - generic [ref=e214]:
+                    - button [ref=e215] [cursor=pointer]: Reset
+                    - img [ref=e218] [cursor=pointer]
+                - generic [ref=e220]:
+                  - generic [ref=e221] [cursor=pointer]:
+                    - img [ref=e223]
+                    - generic [ref=e224]:
+                      - paragraph [ref=e225]: US Bangla Airlines
+                      - paragraph [ref=e226]: ৳ 8,341
+                  - generic [ref=e227] [cursor=pointer]:
+                    - img [ref=e229]
+                    - generic [ref=e230]:
+                      - paragraph [ref=e231]: Biman Bangladesh Airlines
+                      - paragraph [ref=e232]: ৳ 6,115
+                  - generic [ref=e233] [cursor=pointer]:
+                    - img [ref=e235]
+                    - generic [ref=e236]:
+                      - paragraph [ref=e237]: Air Astra
+                      - paragraph [ref=e238]: ৳ 8,341
+                  - generic [ref=e239] [cursor=pointer]:
+                    - img [ref=e241]
+                    - generic [ref=e242]:
+                      - paragraph [ref=e243]: Novo Air
+                      - paragraph [ref=e244]: ৳ 19,137
+              - generic [ref=e245]:
+                - generic [ref=e246]:
+                  - heading [level=6] [ref=e248]: Flight Schedules
+                  - img [ref=e252] [cursor=pointer]
+                - generic [ref=e254]:
+                  - generic [ref=e257]:
+                    - paragraph [ref=e261] [cursor=pointer]:
+                      - generic [ref=e262]: Departure
+                    - paragraph [ref=e266] [cursor=pointer]:
+                      - generic [ref=e267]: Arrival
+                  - generic [ref=e269]:
+                    - paragraph [ref=e270]: "Departure Chattogram: Anytime"
+                    - generic [ref=e271] [cursor=pointer]:
+                      - generic [ref=e272]:
+                        - img [ref=e273]
+                        - paragraph [ref=e274]: Early Morning
+                        - paragraph [ref=e275]: 00:00-05:59
+                      - generic [ref=e276]:
+                        - img [ref=e277]
+                        - paragraph [ref=e278]: Morning
+                        - paragraph [ref=e279]: 06:00-11:59
+                      - generic [ref=e280]:
+                        - img [ref=e281]
+                        - paragraph [ref=e282]: Afternoon
+                        - paragraph [ref=e283]: 12:00-17:59
+                      - generic [ref=e284]:
+                        - img [ref=e285]
+                        - paragraph [ref=e286]: Evening
+                        - paragraph [ref=e287]: 18:00-23:59
+              - generic [ref=e288]:
+                - generic [ref=e289]:
+                  - heading [level=6] [ref=e291]: Baggage Policy
+                  - img [ref=e295] [cursor=pointer]
+                - generic [ref=e298] [cursor=pointer]:
+                  - img [ref=e301]
+                  - paragraph [ref=e303]: 20 Kg
+              - generic [ref=e304]:
+                - generic [ref=e305]:
+                  - heading [level=6] [ref=e307]: Refundability
+                  - img [ref=e311] [cursor=pointer]
+                - generic [ref=e314] [cursor=pointer]:
+                  - img [ref=e317]
+                  - paragraph [ref=e319]: Partially Refundable
+              - generic [ref=e320]:
+                - generic [ref=e321]:
+                  - heading [level=6] [ref=e323]: Layover Time
+                  - img [ref=e327] [cursor=pointer]
+                - generic [ref=e330]:
+                  - generic [ref=e332]:
+                    - slider [ref=e333]
+                    - slider [ref=e336]
+                  - generic [ref=e339]:
+                    - paragraph [ref=e340]: 0 hrs
+                    - paragraph [ref=e341]: 15+ hrs
+              - generic [ref=e342]:
+                - generic [ref=e343]:
+                  - heading [level=6] [ref=e345]: Aircraft
+                  - img [ref=e349] [cursor=pointer]
+                - generic [ref=e351]:
+                  - generic [ref=e352] [cursor=pointer]:
+                    - img [ref=e355]
+                    - paragraph [ref=e357]: ATR 72
+                  - generic [ref=e358] [cursor=pointer]:
+                    - img [ref=e361]
+                    - paragraph [ref=e363]: ATR 72 - 600
+                  - generic [ref=e364] [cursor=pointer]:
+                    - img [ref=e367]
+                    - paragraph [ref=e369]: ATR725
+                  - generic [ref=e370] [cursor=pointer]:
+                    - img [ref=e373]
+                    - paragraph [ref=e375]: Boeing 787-8
+                  - generic [ref=e376] [cursor=pointer]:
+                    - img [ref=e379]
+                    - paragraph [ref=e381]: Boeing 787-9
+          - generic [ref=e382]:
+            - generic [ref=e383]:
+              - generic [ref=e384]:
+                - paragraph [ref=e385]: Showing 5 Flights & 1 Airline
+                - paragraph [ref=e387] [cursor=pointer]: Reset 1 filter
+              - generic [ref=e389]:
+                - generic [ref=e390] [cursor=pointer]:
+                  - img [ref=e393]
+                  - generic [ref=e394]:
+                    - paragraph [ref=e395]:
+                      - generic [ref=e396]: Cheapest
+                    - paragraph [ref=e397]: ৳ 6,115
+                - generic [ref=e398] [cursor=pointer]:
+                  - img [ref=e401]
+                  - generic [ref=e402]:
+                    - paragraph [ref=e403]:
+                      - generic [ref=e404]: Fastest
+                    - paragraph [ref=e405]: 55m
+                - generic [ref=e406] [cursor=pointer]:
+                  - img [ref=e409]
+                  - generic [ref=e410]:
+                    - paragraph [ref=e411]:
+                      - generic [ref=e412]: Earliest
+                    - paragraph [ref=e413]: 09:10
+                - generic [ref=e414]:
+                  - generic [ref=e415] [cursor=pointer]:
+                    - paragraph [ref=e416]: More Sorts
+                    - img [ref=e419]
+                  - generic:
+                    - paragraph [ref=e421] [cursor=pointer]: Early Departure
+                    - paragraph [ref=e423] [cursor=pointer]: Late Departure
+                    - paragraph [ref=e425] [cursor=pointer]: Early Arrival
+                    - paragraph [ref=e427] [cursor=pointer]: Late Arrival
+              - generic [ref=e432]:
+                - generic [ref=e434]:
+                  - generic [ref=e436] [cursor=pointer]:
+                    - img [ref=e438]
+                    - generic [ref=e439]:
+                      - paragraph [ref=e440]: BS (5)
+                      - paragraph [ref=e441]: ৳ 8,341
+                  - generic [ref=e443] [cursor=pointer]:
+                    - img [ref=e445]
+                    - generic [ref=e446]:
+                      - paragraph [ref=e447]: BG (2)
+                      - paragraph [ref=e448]: ৳ 6,115
+                  - generic [ref=e450] [cursor=pointer]:
+                    - img [ref=e452]
+                    - generic [ref=e453]:
+                      - paragraph [ref=e454]: 2A (4)
+                      - paragraph [ref=e455]: ৳ 8,341
+                  - generic [ref=e457] [cursor=pointer]:
+                    - img [ref=e459]
+                    - generic [ref=e460]:
+                      - paragraph [ref=e461]: VQ (1)
+                      - paragraph [ref=e462]: ৳ 19,137
+                - button "image" [disabled] [ref=e464]:
+                  - img "image" [ref=e466]
+                - button "image" [disabled] [ref=e468]:
+                  - img "image" [ref=e470]
+            - generic [ref=e471]:
+              - generic [ref=e473]:
+                - generic [ref=e474]:
+                  - generic [ref=e477]:
+                    - generic [ref=e479]:
+                      - img "image" [ref=e481]
+                      - paragraph [ref=e482]: Partially Refundable
+                    - generic [ref=e483]:
+                      - img "image" [ref=e485]
+                      - paragraph [ref=e486]: 5 seat(s) left
+                  - generic [ref=e488]:
+                    - generic [ref=e489]:
+                      - img "default-image" [ref=e493]
+                      - paragraph [ref=e495]: US Bangla Airlines
+                    - generic [ref=e496]:
+                      - paragraph [ref=e497]: 23 Oct, Thursday
+                      - paragraph [ref=e498]: 08:25
+                      - paragraph [ref=e499]: CGP
+                    - generic [ref=e501]:
+                      - paragraph [ref=e502]: 55m
+                      - img "image" [ref=e504]
+                      - paragraph [ref=e506]: Non-stop
+                    - generic [ref=e507]:
+                      - paragraph [ref=e508]: 23 Oct, Thursday
+                      - paragraph [ref=e509]: 09:20
+                      - paragraph [ref=e510]: DAC
+                  - generic [ref=e512]:
+                    - generic [ref=e514]:
+                      - img "image" [ref=e516]
+                      - paragraph [ref=e517]: Recommended
+                    - button "View Details image" [ref=e518] [cursor=pointer]:
+                      - text: View Details
+                      - img "image" [ref=e520]
+                - generic [ref=e522]:
+                  - generic [ref=e523]:
+                    - img "image" [ref=e525]
+                    - paragraph [ref=e526]: FTMTB15
+                  - generic [ref=e527]:
+                    - generic [ref=e528]:
+                      - paragraph [ref=e530]:
+                        - generic [ref=e531]: BDT
+                        - text: 8,341
+                      - paragraph [ref=e533]: BDT 9,398
+                    - generic [ref=e534]:
+                      - button "View Prices" [ref=e535] [cursor=pointer]:
+                        - paragraph [ref=e536]: View Prices
+                      - button "Select" [ref=e537] [cursor=pointer]:
+                        - paragraph [ref=e538]: Select
+              - generic [ref=e540]:
+                - generic [ref=e541]:
+                  - generic [ref=e544]:
+                    - generic [ref=e546]:
+                      - img "image" [ref=e548]
+                      - paragraph [ref=e549]: Partially Refundable
+                    - generic [ref=e550]:
+                      - img "image" [ref=e552]
+                      - paragraph [ref=e553]: 5 seat(s) left
+                  - generic [ref=e555]:
+                    - generic [ref=e556]:
+                      - img "default-image" [ref=e563]
+                      - paragraph [ref=e565]: US Bangla Airlines
+                    - generic [ref=e566]:
+                      - paragraph [ref=e567]: 23 Oct, Thursday
+                      - paragraph [ref=e568]: 11:05
+                      - paragraph [ref=e569]: CGP
+                    - generic [ref=e571]:
+                      - paragraph [ref=e572]: 55m
+                      - img "image" [ref=e574]
+                      - paragraph [ref=e576]: Non-stop
+                    - generic [ref=e577]:
+                      - paragraph [ref=e578]: 23 Oct, Thursday
+                      - paragraph [ref=e579]: 12:00
+                      - paragraph [ref=e580]: DAC
+                  - button "View Details image" [ref=e583] [cursor=pointer]:
+                    - text: View Details
+                    - img "image" [ref=e585]
+                - generic [ref=e587]:
+                  - generic [ref=e588]:
+                    - img "image" [ref=e590]
+                    - paragraph [ref=e591]: FTMTB15
+                  - generic [ref=e592]:
+                    - generic [ref=e593]:
+                      - paragraph [ref=e595]:
+                        - generic [ref=e596]: BDT
+                        - text: 9,361
+                      - paragraph [ref=e598]: BDT 10,598
+                    - generic [ref=e599]:
+                      - button "View Prices" [ref=e600] [cursor=pointer]:
+                        - paragraph [ref=e601]: View Prices
+                      - button "Select" [ref=e602] [cursor=pointer]:
+                        - paragraph [ref=e603]: Select
+              - generic [ref=e605]:
+                - generic [ref=e606]:
+                  - generic [ref=e609]:
+                    - generic [ref=e611]:
+                      - img "image" [ref=e613]
+                      - paragraph [ref=e614]: Partially Refundable
+                    - generic [ref=e615]:
+                      - img "image" [ref=e617]
+                      - paragraph [ref=e618]: 9 seat(s) left
+                  - generic [ref=e620]:
+                    - generic [ref=e621]:
+                      - img "default-image" [ref=e628]
+                      - paragraph [ref=e630]: US Bangla Airlines
+                    - generic [ref=e631]:
+                      - paragraph [ref=e632]: 23 Oct, Thursday
+                      - paragraph [ref=e633]: 14:35
+                      - paragraph [ref=e634]: CGP
+                    - generic [ref=e636]:
+                      - paragraph [ref=e637]: 55m
+                      - img "image" [ref=e639]
+                      - paragraph [ref=e641]: Non-stop
+                    - generic [ref=e642]:
+                      - paragraph [ref=e643]: 23 Oct, Thursday
+                      - paragraph [ref=e644]: 15:30
+                      - paragraph [ref=e645]: DAC
+                  - button "View Details image" [ref=e648] [cursor=pointer]:
+                    - text: View Details
+                    - img "image" [ref=e650]
+                - generic [ref=e652]:
+                  - generic [ref=e653]:
+                    - img "image" [ref=e655]
+                    - paragraph [ref=e656]: FTMTB15
+                  - generic [ref=e657]:
+                    - generic [ref=e658]:
+                      - paragraph [ref=e660]:
+                        - generic [ref=e661]: BDT
+                        - text: 20,243
+                      - paragraph [ref=e663]: BDT 23,400
+                    - generic [ref=e664]:
+                      - button "View Prices" [ref=e665] [cursor=pointer]:
+                        - paragraph [ref=e666]: View Prices
+                      - button "Select" [ref=e667] [cursor=pointer]:
+                        - paragraph [ref=e668]: Select
+              - generic [ref=e670]:
+                - generic [ref=e671]:
+                  - generic [ref=e674]:
+                    - generic [ref=e676]:
+                      - img "image" [ref=e678]
+                      - paragraph [ref=e679]: Partially Refundable
+                    - generic [ref=e680]:
+                      - img "image" [ref=e682]
+                      - paragraph [ref=e683]: 9 seat(s) left
+                  - generic [ref=e685]:
+                    - generic [ref=e686]:
+                      - img "default-image" [ref=e693]
+                      - paragraph [ref=e695]: US Bangla Airlines
+                    - generic [ref=e696]:
+                      - paragraph [ref=e697]: 23 Oct, Thursday
+                      - paragraph [ref=e698]: 16:35
+                      - paragraph [ref=e699]: CGP
+                    - generic [ref=e701]:
+                      - paragraph [ref=e702]: 55m
+                      - img "image" [ref=e704]
+                      - paragraph [ref=e706]: Non-stop
+                    - generic [ref=e707]:
+                      - paragraph [ref=e708]: 23 Oct, Thursday
+                      - paragraph [ref=e709]: 17:30
+                      - paragraph [ref=e710]: DAC
+                  - button "View Details image" [ref=e713] [cursor=pointer]:
+                    - text: View Details
+                    - img "image" [ref=e715]
+                - generic [ref=e717]:
+                  - generic [ref=e718]:
+                    - img "image" [ref=e720]
+                    - paragraph [ref=e721]: FTMTB15
+                  - generic [ref=e722]:
+                    - generic [ref=e723]:
+                      - paragraph [ref=e725]:
+                        - generic [ref=e726]: BDT
+                        - text: 20,243
+                      - paragraph [ref=e728]: BDT 23,400
+                    - generic [ref=e729]:
+                      - button "View Prices" [ref=e730] [cursor=pointer]:
+                        - paragraph [ref=e731]: View Prices
+                      - button "Select" [ref=e732] [cursor=pointer]:
+                        - paragraph [ref=e733]: Select
+              - generic [ref=e735]:
+                - generic [ref=e736]:
+                  - generic [ref=e739]:
+                    - generic [ref=e741]:
+                      - img "image" [ref=e743]
+                      - paragraph [ref=e744]: Partially Refundable
+                    - generic [ref=e745]:
+                      - img "image" [ref=e747]
+                      - paragraph [ref=e748]: 9 seat(s) left
+                  - generic [ref=e750]:
+                    - generic [ref=e751]:
+                      - img "default-image" [ref=e755]
+                      - paragraph [ref=e757]: US Bangla Airlines
+                    - generic [ref=e758]:
+                      - paragraph [ref=e759]: 23 Oct, Thursday
+                      - paragraph [ref=e760]: 21:10
+                      - paragraph [ref=e761]: CGP
+                    - generic [ref=e763]:
+                      - paragraph [ref=e764]: 55m
+                      - img "image" [ref=e766]
+                      - paragraph [ref=e768]: Non-stop
+                    - generic [ref=e769]:
+                      - paragraph [ref=e770]: 23 Oct, Thursday
+                      - paragraph [ref=e771]: 22:05
+                      - paragraph [ref=e772]: DAC
+                  - button "View Details image" [ref=e775] [cursor=pointer]:
+                    - text: View Details
+                    - img "image" [ref=e777]
+                - generic [ref=e779]:
+                  - generic [ref=e780]:
+                    - img "image" [ref=e782]
+                    - paragraph [ref=e783]: FTMTB15
+                  - generic [ref=e784]:
+                    - generic [ref=e785]:
+                      - paragraph [ref=e787]:
+                        - generic [ref=e788]: BDT
+                        - text: 20,243
+                      - paragraph [ref=e790]: BDT 23,400
+                    - generic [ref=e791]:
+                      - button "View Prices" [ref=e792] [cursor=pointer]:
+                        - paragraph [ref=e793]: View Prices
+                      - button "Select" [ref=e794] [cursor=pointer]:
+                        - paragraph [ref=e795]: Select
+            - paragraph [ref=e798]: End of Search Results
+    - generic [ref=e799]:
+      - generic [ref=e800]:
+        - img "Hero background image" [ref=e802]
+        - generic [ref=e808]:
+          - heading "Start Exploring the World with Us!" [level=2] [ref=e809]
+          - button "Get Started →" [ref=e810] [cursor=pointer]:
+            - text: Get Started
+            - paragraph [ref=e811]: →
+      - generic [ref=e813]:
+        - generic [ref=e814]:
+          - generic [ref=e816]:
+            - img "logo" [ref=e818] [cursor=pointer]
+            - generic [ref=e819]:
+              - paragraph [ref=e820]: "MoCAT Certificate No: 0013925"
+              - paragraph [ref=e821]: "IATA Certificate No: 42343383"
+              - paragraph [ref=e822]: "DBID License No: 815634356"
+            - paragraph [ref=e823]: Let us be your trusted travel companion every step of the way.
+            - generic [ref=e824]:
+              - link "default-image" [ref=e825] [cursor=pointer]:
+                - /url: https://www.facebook.com/firsttripbd
+                - img "default-image" [ref=e827]
+              - link "default-image" [ref=e828] [cursor=pointer]:
+                - /url: https://x.com/FirstTripBD
+                - img "default-image" [ref=e830]
+              - link "default-image" [ref=e831] [cursor=pointer]:
+                - /url: https://www.instagram.com/firsttrip_ltd/
+                - img "default-image" [ref=e833]
+              - link "default-image" [ref=e834] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/first-trip-limited
+                - img "default-image" [ref=e836]
+              - link "default-image" [ref=e837] [cursor=pointer]:
+                - /url: https://www.youtube.com/@Firsttripltd
+                - img "default-image" [ref=e839]
+          - generic [ref=e841]:
+            - paragraph [ref=e842]: Explore
+            - link "Flight" [ref=e844] [cursor=pointer]:
+              - /url: /flight
+              - paragraph [ref=e845]: Flight
+            - link "Hotel" [ref=e847] [cursor=pointer]:
+              - /url: /hotel
+              - paragraph [ref=e848]: Hotel
+            - link "Holiday" [ref=e850] [cursor=pointer]:
+              - /url: /holiday
+              - paragraph [ref=e851]: Holiday
+            - link "Visa" [ref=e853] [cursor=pointer]:
+              - /url: /visa
+              - paragraph [ref=e854]: Visa
+            - link "Promotions" [ref=e856] [cursor=pointer]:
+              - /url: /firsttrip-offers
+              - paragraph [ref=e857]: Promotions
+            - link "Business Class" [ref=e859] [cursor=pointer]:
+              - /url: /business-class
+              - paragraph [ref=e860]: Business Class
+            - link "FT Club" [ref=e862] [cursor=pointer]:
+              - /url: /ft-club
+              - paragraph [ref=e863]: FT Club
+            - link "Travel Guide" [ref=e865] [cursor=pointer]:
+              - /url: https://blog.firsttrip.com/
+          - generic [ref=e867]:
+            - paragraph [ref=e868]: Useful Links
+            - link "About Us" [ref=e870] [cursor=pointer]:
+              - /url: /about-us
+              - paragraph [ref=e871]: About Us
+            - link "Contact Us" [ref=e873] [cursor=pointer]:
+              - /url: /about-us?id=contact_us
+              - paragraph [ref=e874]: Contact Us
+            - link "Visa Guide & Application" [ref=e876] [cursor=pointer]:
+              - /url: /visa
+              - paragraph [ref=e877]: Visa Guide & Application
+            - link "Terms & Conditions" [ref=e879] [cursor=pointer]:
+              - /url: /terms-conditions
+              - paragraph [ref=e880]: Terms & Conditions
+            - link "Privacy Policy" [ref=e882] [cursor=pointer]:
+              - /url: /privacy-policy
+              - paragraph [ref=e883]: Privacy Policy
+            - link "Refund & Cancellation" [ref=e885] [cursor=pointer]:
+              - /url: /refund-policy
+              - paragraph [ref=e886]: Refund & Cancellation
+            - link "Rescheduling Policy" [ref=e888] [cursor=pointer]:
+              - /url: /rescheduling-policy
+              - paragraph [ref=e889]: Rescheduling Policy
+          - generic [ref=e891]:
+            - paragraph [ref=e892]: Contact Us
+            - generic:
+              - link "3rd floor, Sharif Plaza, 39 Kemal Ataturk Avenue,Banani, Dhaka-1213.":
+                - /url: /
+                - paragraph: 3rd floor, Sharif Plaza, 39 Kemal Ataturk Avenue,Banani, Dhaka-1213.
+            - generic:
+              - link "image 09613-131415":
+                - /url: /
+                - generic:
+                  - generic:
+                    - img "image"
+                - paragraph: 09613-131415
+            - generic:
+              - link "image ask@firsttrip.com":
+                - /url: /
+                - generic:
+                  - generic:
+                    - img "image"
+                - paragraph: ask@firsttrip.com
+            - generic [ref=e894] [cursor=pointer]:
+              - img [ref=e897]
+              - paragraph [ref=e898]: View Map
+        - generic [ref=e900]:
+          - generic [ref=e901]:
+            - generic [ref=e902]:
+              - paragraph [ref=e903]: Authorized by
+              - img "Footer Image - Authorized by" [ref=e905]
+            - generic [ref=e906]:
+              - paragraph [ref=e907]: Verified by
+              - img "Footer Image - Verified by" [ref=e909]
+            - generic [ref=e910]:
+              - paragraph [ref=e911]
+              - img "Footer Image - Other" [ref=e913]
+            - generic [ref=e914]:
+              - paragraph [ref=e915]
+              - img "Footer Image - Other" [ref=e917]
+            - generic [ref=e918]:
+              - paragraph [ref=e919]
+              - img "Footer Image - Other" [ref=e921]
+          - generic [ref=e922]:
+            - paragraph [ref=e923]: Payment Method
+            - img "Payment Method" [ref=e924]
+        - generic [ref=e925]:
+          - paragraph [ref=e927]: © 2025 Firsttrip.All Rights Reserved
+          - generic [ref=e928]:
+            - link "EMI Policy" [ref=e929] [cursor=pointer]:
+              - /url: /emi-policy
+            - link "FAQ’s" [ref=e930] [cursor=pointer]:
+              - /url: /faq
+  - img [ref=e933] [cursor=pointer]
+  - alert [ref=e934]
+  - iframe [ref=e935]:
+    - generic [active]:
+      - generic:
+        - img [ref=f1e3] [cursor=pointer]
+        - generic:
+          - generic:
+            - heading "Hey there 👋" [level=5]
+            - paragraph: I can help you get started with gPlex AI and answer your technical questions.
+```
